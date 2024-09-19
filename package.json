@@ -1,0 +1,35 @@
+{
+  "name": "helia-encrypt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@chainsafe/libp2p-noise": "^16.0.0",
+    "@chainsafe/libp2p-yamux": "^7.0.0",
+    "@helia/unixfs": "^3.0.7",
+    "@libp2p/bootstrap": "^11.0.1",
+    "@libp2p/identify": "^3.0.1",
+    "@libp2p/tcp": "^10.0.1",
+    "blockstore-enc": "^1.0.1",
+    "blockstore-fs": "^2.0.2",
+    "datastore-core": "^10.0.2",
+    "helia": "^4.2.6",
+    "libp2p": "^2.0.2",
+    "multiformats": "^13.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "interface-blockstore": "^5.3.1",
+    "typescript": "^5.6.2"
+  },
+  "scripts": {
+    "start": "tsx index.ts"
+  }
+}
